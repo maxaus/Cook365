@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS `cook_test`;
+CREATE DATABASE `cook_test` DEFAULT CHARACTER SET 'utf8' DEFAULT COLLATE 'utf8_general_ci';

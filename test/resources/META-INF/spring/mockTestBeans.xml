@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	<bean name="realProductService"
+		  class="com.baev.cook365.service.impl.ProductServiceImpl"/>
+	<bean name="realIngredientService"
+			  class="com.baev.cook365.service.impl.IngredientServiceImpl"/>
+	<bean name="realMeasureUnitService"
+			  class="com.baev.cook365.service.impl.MeasureUnitServiceImpl"/>
+	<bean name="realRecipeService"
+			  class="com.baev.cook365.service.impl.RecipeServiceImpl"/>
+	<bean name="realUserService"
+			  class="com.baev.cook365.service.impl.UserServiceImpl"/>
+	<bean name="realUserDetailsService"
+				  class="com.baev.cook365.service.impl.UserDetailsServiceImpl"/>
+</beans>

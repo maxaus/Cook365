@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    min-height: 100%
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+label.error {
+    color: #ff0000;
+}
+
+.inputBorder {
+    border: 1px solid #666666;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.inputBorder.error {
+    border: 1px solid #ff0000;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.m1 {
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.m2 {
+    margin-left: 3px;
+}
+
+.m3 {
+    margin-left: 15px;
+}
+
+.m4 {
+    margin-top: 10px;
+}
+
+#pageNav img {
+    margin-bottom: -12px;
+    border: none;
+}
+
+#pageNav {
+    color: #666666;
+    text-align: right;
+}
+
+.c1 {
+    color: #666600;
+}
+
+.c2 {
+    color: #666666;
+}
+
+.c3 {
+    color: #cc6600;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.recipeGroupTitle {
+    font-family: Monospace, monospace;
+    color: #333300;
+}
+
+.recipeGroup a {
+    color: #cc3300;
+}
+
+.recipeGroup td {
+    font-size: 10pt;
+}
+
+.recipeGroup td a img {
+    vertical-align: top;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #ffcc66;
+}
+
+td#header {
+    height: 150px;
+    border-bottom: 1px solid #cccccc;
+}
+
+td#leftColumn {
+    /*float: left;*/
+    vertical-align: top;
+    width: 180px;
+    max-width: 180px;
+    height: 100%;
+    /*margin-right: 60px;*/
+    background: #ffff99 url('../img/border.png') repeat-y right top;
+    overflow: visible;
+}
+
+td#rightColumn {
+    /*float: right;*/
+    vertical-align: top;
+    width: 180px;
+    border-left: 1px dotted #000;
+    padding-left: 5px;
+    height: 100%;
+}
+
+td#mainContent {
+    /*top: 10px;*/
+    /*margin: 0 180px 0 180px;*/
+    vertical-align: top;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+td#footer {
+    border-top: 1px solid #cccccc;
+    height: 20px;
+}
+
+div#calendarBody {
+    background-color: #e6e4e4;
+    margin-top: 35px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+#calendarTable th {
+    height: 20px;
+    width: 30px;
+    vertical-align: bottom;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #cccccc;
+    font-size: 11px;
+    font-weight: lighter;
+    font-family: arial, serif;
+}
+
+#calendarTable {
+    background-color: #e6e4e4;
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    width: 217px;
+}
+
+#calendarTable td {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: arial, serif;
+}
+
+#otherLinks {
+    position: absolute;
+    margin-top: 260px;
+}
+
+#otherLinks a {
+    vertical-align: middle;
+    font-size: 9pt;
+}
+
+#otherLinks img {
+    height: 30px;
+    border: 0;
+    margin-right: 3px;
+}
+
+.searchButton {
+    cursor: pointer;
+    margin-left: -24px;
+    margin-bottom: -5px;
+    *margin-bottom: 2px;
+}
+
+.searchBox {
+    background: url(../img/search-box.png) no-repeat left top;
+    width: 17px;
+    height: 24px;
+    padding-left: 10px;
+
+    overflow: visible;
+    padding-bottom: 10px;
+    *padding-bottom: 1px;
+    display: inline;
+}
+
+.searchBoxInput {
+    height: 24px;
+    border: none;
+    background: none;
+    width: 125px;
+    font-size: 14px;
+    color: #445560;
+    margin-left: 10px;
+    margin-right: 23px;
+}
+
+.mainTable {
+    height: 100%;
+    font-size: 9pt;
+}
+
+.tooltip {
+    display: none;
+    font-size: 12px;
+    height: 70px;
+    width: 160px;
+    padding: 25px;
+    color: #fff;
+}
+
+.recipeGroup {
+    margin-top: 20px;
+    /*margin-right: 20px;*/
+    background-color: #ffffcc;
+    padding: 10px;
+    border: 1px dashed #ffcc66;
+    overflow: hidden;
+}
+

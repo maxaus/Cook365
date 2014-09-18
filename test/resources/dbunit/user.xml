@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<user id="1" firstName="Maxim" lastName="Baev" email="m.k.baev@gmail.com"
+		  password="a6865c3cb0f021994cda70160db89f76" role="ROLE_ADMIN"/>
+</dataset>

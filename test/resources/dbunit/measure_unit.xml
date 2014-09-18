@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<measure_unit id="1" name="гр" ratio="1"/>
+	<measure_unit id="2" name="кг" ratio="1000" parentId="1"/>
+	<measure_unit id="3" name="мл" ratio="1"/>
+	<measure_unit id="4" name="л" ratio="1000" parentId="3"/>
+	<measure_unit id="5" name="ст. л" ratio="15" parentId="3"/>
+	<measure_unit id="6" name="дес. л'" ratio="10" parentId="3"/>
+	<measure_unit id="7" name="ч. л" ratio="5" parentId="3"/>
+	<measure_unit id="8" name="шт" ratio="0"/>
+</dataset>

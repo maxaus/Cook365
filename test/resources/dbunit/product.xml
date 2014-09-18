@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <product id="1" liquid="0" name="Лук"/>
+  <product id="2" liquid="0" name="Соль"/>
+  <product id="3" liquid="0" name="Говядина"/>
+  <product id="4" liquid="0" name="Киви"/>
+  <product id="5" liquid="1" name="Уксус яблочный"/>
+</dataset>

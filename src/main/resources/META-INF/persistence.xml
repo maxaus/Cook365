@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+        http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" version="1.0">
+
+    <persistence-unit name="transactions-optional" transaction-type="RESOURCE_LOCAL">
+
+        <!--<provider>org.datanucleus.store.appengine.jpa.DatastorePersistenceProvider</provider>-->
+
+        <class>com.baev.cook365.model.User</class>
+        <class>com.baev.cook365.model.Recipe</class>
+        <class>com.baev.cook365.model.Ingredient</class>
+        <class>com.baev.cook365.model.Product</class>
+        <class>com.baev.cook365.model.MeasureUnit</class>
+        <properties>
+            <!-- use a file system based index -->
+            <property name="hibernate.search.default.directory_provider"
+                      value="org.hibernate.search.store.FSDirectoryProvider"/>
+            <!-- directory where the indexes will be stored -->
+            <property name="hibernate.search.default.indexBase"
+                      value="C:/PVN/Projects/Cook365/indexes"/>
+            <!--<property name="hibernate.search.default.indexBase"-->
+            <!--value="sites/d2011571-1/indexes"/>-->
+            <property name="hibernate.connection.charSet" value="utf8"/>
+            <property name="hibernate.connection.characterEncoding" value="utf8"/>
+            <property name="hibernate.connection.useUnicode" value="true"/>
+            <property name="resource_charset" value="true"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<ingredient id="1" measureUnitId="1" productId="1" recipeId="1" value="10"/>
+	<ingredient id="2" measureUnitId="1" productId="5" recipeId="1" value="20"/>
+	<ingredient id="3" measureUnitId="1" productId="1" recipeId="2" value="25"/>
+	<ingredient id="4" measureUnitId="1" productId="4" recipeId="2" value="5"/>
+	<ingredient id="5" measureUnitId="1" productId="2" recipeId="3" value="56"/>
+	<ingredient id="6" measureUnitId="1" productId="3" recipeId="3" value="300"/>
+</dataset>

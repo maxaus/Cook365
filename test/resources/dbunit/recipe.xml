@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<recipe id="1" title="Суп" shortDescription="Суп" description="Суп" date="2012-05-03 00:00:00" type="dinner" vegetarian="0"/>
+	<recipe id="2" title="Салат" shortDescription="Салат" description="Салат" date="2012-05-04 00:00:00" type="salad" vegetarian="1"/>
+	<recipe id="3" title="Горячее" shortDescription="Горячее" description="Горячее" date="2012-05-04 00:00:00" type="supper" vegetarian="0"/>
+</dataset>
